@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url('./../img/fd.jpg') no-repeat top center;
+	background-size: cover;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+#container {
+	width: 1100px;
+	margin: auto;
+}
+
+/* --- ENTETE --- */
+
+header {
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#social {
+	display: flex;
+}
+#social p {
+	margin-left: 20px;
+}
+
+/* --- MENU DE NAVIGATION --- */
+
+header + nav {
+	height: 60px;
+}
+header + nav ul{
+	list-style: none;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+}
+header + nav a {
+	text-decoration: none;
+	color: #fefefe;
+	padding: 5px;
+	 font-size: 14px; 
+}
+header + nav a:hover {
+	color: #d10d0d;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+/* --- SLIDER --- */
+
+#slider img {
+	width: calc(100% -20px);
+	border: solid 10px #fff;
+	display: block;
+}
+#slider + nav {
+	display: flex;
+	align-items: center;
+}
+
+/* --- SECTION D'INFOS SUPLEMENTAIRE --- */
+
+.element {
+	width: 32%;
+}
+#slider + nav + section {
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+#info {
+	text-align: justify;
+	font-size: 14px;
+}
+#info p {
+	margin-top: 20px;
+	color: #bbb;
+}
+#lienSuplementaire {
+	background-color: rgba(88, 88, 88, 0.5)
+}
+#lienSuplementaire ul {
+	list-style: url('./../img/puce.png');
+	padding: 20px 40px 20px 40px;
+}
+#lienSuplementaire ul li {
+	margin-bottom: 10px;
+}
+#lienSuplementaire a {
+	font-weight: 600;
+	text-decoration: none;
+	color: #fafafa;
+	font-size: 14px;
+}
+#lienSuplementaire p {
+	text-align: center;
+}
+#calendrier {
+	background-color: rgba(0, 0, 0, 0.7)
+}
+#headerCalendrier {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+table {
+	margin: 20px;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+#calendrier tr {
+	display: flex;
+	width: 100%;
+
+}
+#calendrier td {
+	background-color: #555;
+	margin: 3px;
+	padding: 10px 15px 10px 15px;
+}
+#f1 {
+	background: url('./../img/puceCourse.gif') no-repeat center center;
+	color: rgba(0, 0, 0, 0);
+}
+#moto {
+	background: url('./../img/puceMoto.gif') no-repeat center center;
+	color: rgba(0, 0, 0, 0);
+}
+
+/* --- PIED DE PAGE --- */
+
+footer {
+	border-top: solid 1px #bbb;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+footer a {
+	text-decoration: none;
+	font-family: 'Roboto', Arial, sans-serif;
+	color: #bbb;
+	font-size: 11px;
+}
+#menu2{
+	display: none;
+}
+#webburger{
+	display: none;
+}
+
+@media all and (max-width: 1024px)
+{
+#menu2{
+	display: block;	
+}
+a#burgerMenu.btnMobile{
+	padding-left: 40px;
+	padding-right: 250px;
+}
+#webburger{
+	text-align: center;
+}
+#webburger ul{
+	list-style: none;
+}
+#webburger ul li{
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.89);
+    margin-bottom: 1px;
+    text-align: center;
+}
+#container
+{
+	width: auto;
+}
+#social {
+	display: none;
+}
+#container nav {
+	display: none;
+}
+#slider img {	
+	border:solid 5px white;
+	max-width: 100%;
+    height: auto;	
+	}
+section {
+	flex-direction: column;	
+	}
+	H1{
+	text-align: center;
+	}
+	section .element {
+	width: auto;
+	background-color: rgba(88, 88, 88, 0.5);
+	margin-top: 25px;	
+	}
+	#slider + nav + section
+	{
+	margin-top: 10px;
+	}
+	#info p {
+	font-size: 20px;
+	color:white;
+	}
+	#lienSuplementaire ul {
+	list-style: none;
+	}
+	#lienSuplementaire li 
+	{
+	text-align: center;
+	}
+	#lienSuplementaire ul li a{
+		font-size: 20px;
+	}
+
+	footer{
+	width: auto;
+	text-align: center;	
+	}
+}
+	
+
+
+
+
+

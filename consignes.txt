@@ -1,0 +1,28 @@
+Evaluation utilisation Javascript et Jquery
+
+0-Creer un tableau menus[] a deux dimensions contenant les infos suivantes
+	1=Historique,Le circuit,Les équipements
+	2=Programme 2019,Coupe de France des circuits
+	3=Journées Auto,Journées Moto,Stages
+	5=Championnat,Journées roulage,Réservations
+	6=Comment venir,Hébergement,Restauration
+
+1-Creer une fonction menu() qui insere les sous menus en html dans index.html sous la forme de liste en fonction de la variable menus[].
+
+2-Utiliser Jquery afin de masquer/afficher agreablement ( deroulé ? ) les sous menus créés ci dessus, n'oubliez pas la couche css afin de les habiller/positionner
+
+3-Créer un script afin d'animer le slider sur 3 images.
+
+4-Rechercher un plugin Jquery et l'utiliser afin de mettre un calendrier fonctionnel dans le div en bas a droite, n'oubliez pas la couche css afin de l'habiller/positionner.
+
+
+Vous pouvez modifier le code html/css au besoin a condition de respecter les standards html5 et W3C
+
+Barême sur 30pts :
+
+0-2pts
+1-5pts
+2-6pts
+3-6pts
+4-6pts
+Respect des normes, des consignes, indentation, commentaires - 5pts

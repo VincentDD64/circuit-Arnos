@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<title>Pau////Arnos</title>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<p><img src="./img/logo.png" alt="Logo"></p>
+			<div id="menu2">
+				<a href="#" id="burgerMenu" name="burgerMenu" class="btnMobile"><img src="./img/menu_burger.png" alt="Menu"></a>
+			</div>
+			<div id="social">
+				
+				<p><a href="#!"><img src="./img/fb.png" alt="facebook logo"></a></p>
+				<p><a href="#!"><img src="./img/tripad.png" alt="Tripadvisor logo"></a></p>
+			</div>
+		
+		</header>
+			
+			
+		<nav id="webMenu">
+			<ul>
+				<li><a href="#!">CIRCUIT</a>
+					<ul>
+						<!-- Boucle affichage burger(1) -->						<li></li>
+					</ul>
+				</li>
+				<li><p><img src="./img/separ.png" alt="separateur"></p></li>
+				<li><a href="#!">COURSES</a>
+					<ul>
+						<!-- Boucle affichage burger(2) -->						<li></li>
+					</ul>
+				</li>
+				<li><p><img src="./img/separ.png" alt="separateur"></p></li>
+				<li><a href="#!">ENTRAINENMENT & STAGES</a>
+					<ul>
+						<!-- Boucle affichage burger(3) -->						<li></li>
+					</ul>
+				</li>
+				<li><p><img src="./img/separ.png" alt="separateur"></p></li>
+				<li><a href="#!">LOCATIONS PISTE & INFRASTRUCTURE</a>
+					<ul>
+						<!-- Boucle affichage burger(4) -->						<li></li>
+					</ul>
+				</li>
+				<li><p><img src="./img/separ.png" alt="separateur"></p></li>
+				<li><a href="#!">CALENDRIER</a>
+					<ul>
+						<!-- Boucle affichage burger(5) -->						<li></li>
+					</ul>
+				</li>
+				<li><p><img src="./img/separ.png" alt="separateur"></p></li>
+				<li><a href="#!">INFOS PRATIQUES</a>
+					<ul>
+						<!-- Boucle affichage burger(6) -->						<li></li>
+					</ul>
+				</li>
+				<li><p><img src="./img/separ.png" alt="separateur"></p></li>
+				<li><a href="#!">CONTACT</a></li>
+			</ul>
+		</nav>
+		<nav id="webburger">
+
+			<ul>
+				<li class="titreMenu">CIRCUIT</li>
+				<li class="titreMenu">COURSES</li>
+				<li class="titreMenu">ENTRAINENMENT&STAGES</li>
+				<li class="titreMenu">LOCATIONS PISTE&INFRASTRUCTURE</li>
+				<li class="titreMenu">CALENDRIER</li>
+				<li class="titreMenu">INFOS PRATIQUES</li>
+				<li class="titreMenu">CONTACT</li>
+				<li class="titreMenu"><a href="#!"><img src="./img/fb.png" alt="facebook logo"></a><a href="#!"><img src="./img/tripad.png" alt="Tripadvisor logo"></a></li>
+				
+			</ul> 
+		 </nav>
+		<section id="slider">
+			<!-- Zone diaporama -->
+			<p><img src="./slider/01.jpg" alt=""></p>
+			<!-- -->
+		</section>
+		<nav id="menu">
+			<p><a href="#!"><img src="./img/btn01.jpg" alt="Boutique"></a></p>
+			<p><a href="#!"><img src="./img/btn02.jpg" alt="Circuit en photo"></a></p>
+			<p><a href="#!"><img src="./img/btn03.jpg" alt="Notre calendrier"></a></p>
+			<p><a href="#!"><img src="./img/btn04.jpg" alt="Contactez nous"></a></p>
+		</nav>
+		<section id="reserv">
+			<div class="element" id="info">
+				<h1><img src="./img/titreHome.png" alt=""></h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam consequuntur magni saepe beatae aliquid at veniam, illo amet, laborum aperiam explicabo? Id alias distinctio voluptate dolore beatae assumenda adipisci.<br>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur dignissimos iusto delectus, fuga reiciendis soluta eum quod beatae adipisci aspernatur modi deleniti sed commodi fugit in dolor sequi aut!</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, similique! Ipsam doloribus reprehenderit dolores ex, est sequi accusantium omnis error?</p>
+			</div>
+			<div class="element" id="lienSuplementaire">
+				<ul>
+					<li><a href="#!">Automobile / GranTourisme</a></li>
+					<li><a href="#!">Grand Prix GT</a></li>
+					<li><a href="#!">Grand Prix Historique (14/09/2015)</a></li>
+					<li><a href="#!">Automobile / GranTourisme</a></li>
+					<li><a href="#!">Grand Prix GT</a></li>
+					<li><a href="#!">Grand Prix Historique (14/09/2015)</a></li>
+				</ul>
+				<p><img src="./img/btnResa.png" alt="Reservation"></p>
+			</div>
+			<div class="element" id="calendrier">
+				<!-- Insertion PlugIn calendrier -->
+	
+			</div>
+		</section>
+		<footer>
+			<p><a href="#!">Circuit Pau////Armos</a> - <a href="#!">Copyright 2016</a> - <a href="#!">Mentions légales</a> - <a href="#!">Conditions Générales d'Utilisation</a> - <a href="#!">Création du site</a></p>
+		</footer>
+	</div>
+</body>
+<script>
+
+$(document).ready( function() {
+	    $(function(){
+        $('#burgerMenu').on('click touch', function(e){
+    	$('#webburger').slideToggle();
+			
+        });
+    });
+});
+
+
+</script>
+</html>
